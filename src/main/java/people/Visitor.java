@@ -12,7 +12,7 @@ public class Visitor {
     private double money;
     private ArrayList<Attraction> visitedAttractions;
 
-    public Visitor(int age, double height, double money, ArrayList<Attraction> visitedAttractions) {
+    public Visitor(int age, double height, double money) {
         this.age = age;
         this.height = height;
         this.money = money;
